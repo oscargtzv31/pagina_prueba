@@ -1,0 +1,498 @@
+@font-face{
+		font-family: "electric";
+	src: url("../fuente.eot");
+	src: url("../fuente.eot?#iefix") format("embedded-opentype"),
+	     url("../fuente.woff") format("woff"),
+	     url("../maian.ttf") format("truetype"),
+	     url("../fuente.svg#kimberley") format("svg");
+
+}
+
+/* Cuerpo de la página web */
+body {
+	background: url(../imagenes/fondo.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "electric";
+}
+
+/* Estilo para los diferentes títulos y letras */
+h1, h2, h3, h4, h5, h6 {
+
+	letter-spacing: 3px;
+	font-weight: 400;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: white;
+	 text-align: center;
+}
+
+hr {
+	border-color: #999999;
+	max-width: 400px;
+}
+
+/* Encabezado superior. Tiene opacidad */
+.blanco{
+	background-color: rgba(255,255,255, 0.3);
+}
+
+
+/*
+  =====================================
+  CSS for <iframe> embedded Google Map
+  =====================================
+*/
+.mapWrapper {
+    position: relative;
+    /*
+    Do math with the height of your iframe divided by the width, then converted to percent
+    In this example the height is 400 and the width is 600
+    400 / 600 = .66666667
+    which is 66.6666667% */
+    padding-bottom: 25.6666667%;
+    height: 0;
+}
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Nuevo codigo */
+
+.promo {
+	text-align: center;
+	padding: 18px;
+	color: #fff;
+	border-radius: 30px;
+}
+
+.clases {
+	text-align: center;
+	padding: 8px;
+	margin-top: -6px;
+	margin-bottom: -18px;
+	color: #fff;
+	border-radius: 30px;
+}
+
+.temporada {
+	background: #ddbb67;
+	text-align: center;
+	border-radius: 8px;
+	color: #fff;
+	padding: 12px;
+}
+
+.titulo {
+    background: transparent;',GradientType=1 ); /* IE6-9 */
+    padding: 10px 10px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+	margin-top:
+
+
+
+}
+
+.titulo-2{
+    background: red;
+    padding: 10px 10px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-3{
+      background: #022859; /* Old browsers */
+	background: -moz-linear-gradient(left,  #022859 1%, #2661b5 50%, #022859 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#022859), color-stop(50%,#2661b5), color-stop(99%,#022859)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #022859 1%,#2661b5 50%,#022859 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #022859 1%,#2661b5 50%,#022859 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #022859 1%,#2661b5 50%,#022859 99%); /* IE10+ */
+	background: linear-gradient(to right,  #022859 1%,#2661b5 50%,#022859 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#022859', endColorstr='#022859',GradientType=1 ); /* IE6-9 */
+    padding: 10px 10px;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+	.container-fluid {
+		padding: 0;
+	}
+
+
+.btn-2 {
+
+	background: transparent;
+	color: white;
+	border: 2px solid #E68F00;
+
+	  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+	font-size:30px;
+  border:none;
+	margin-top: -130px;
+
+}
+
+
+.btn-default-2{
+
+    border: 2px solid #E68F00;
+}
+
+
+.btn-default{
+    font-size: 20px;
+    border: 2px solid #F09600;
+}
+#forma {
+    padding: 20px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+/* Cajas de texto */
+.caja-texto {
+  	border: #FF7E10 3px solid;
+		background-color: rgba(150, 150, 150, 0.5);
+  	color: white;
+    padding:15px 15px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	  margin-left: auto;
+	  margin-right: auto;
+    font-size: 18px;
+	  width: 100%;
+	  display: inline-block;
+	  border-radius: 30px;
+	  text-align: justify;
+}
+
+.caja-texto-2{
+	border: #FF7E10 2px solid;
+	background-color: rgba(150, 150, 150, 0.5);
+	color: white;
+  padding:8px 8px 8px 8px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+  font-size: 16px;
+	width: 100%;
+	display: inline-block;
+	border-radius: 30px;
+	text-align: justify;
+}
+
+.caja-texto-3{
+padding:15px 15px 15px 15px;
+	background: #2B67B1;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+	 color: black;
+	width: 100%;
+	display: inline-block;
+
+}
+
+
+.form-control {
+    font-size: 20px;
+    border: 3px solid #ddbb67;
+    color: #716E66 !important;
+}
+
+
+.btn-default-2{
+
+    border: 2px solid #96D6D7;
+}
+
+
+.btn-default{
+    font-size: 20px;
+    border: 2px solid #ddbb67;
+}
+
+/* Aquí acaba */
+
+.img-center{
+	display: block;
+	border:none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Imagen del encabezado superior */
+.img-center-2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:none;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+.brand,
+.address-bar {
+	display: none;
+}
+.navbar-brand {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+.navbar-nav {
+
+	letter-spacing: 3px;
+	font-weight: 400;
+}
+
+.img-full {
+	min-width: 100%;
+}
+
+.brand-name {
+	font-weight: 700;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	letter-spacing: normal;
+}
+
+.tagline-divider {
+	margin: 15px auto 3px;
+	border-color: #999999;
+	max-width: 250px;
+}
+
+.box {
+	background: #fff;
+	background: rgba(255,255,255,0.6);
+	margin-bottom: 20px;
+	padding: 20px;
+/*  padding: 30px 15px;*/
+}
+
+
+.intro-text {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.25em;
+	font-weight: 400;
+}
+
+.img-border {
+	float: none;
+	margin: 0 auto 0;
+	border: #999999 solid 1px;
+}
+
+.img-left {
+	float: none;
+	margin: 0 auto 0;
+}
+
+strong{
+	color: #012863;
+}
+footer {
+           background: #FF7E10;
+}
+
+footer p{
+	color: white;
+  margin: 0;
+  font-size: 1.2em;
+	text-align: justify
+}
+footer h3{
+	color: #dbbfab;
+	font-weight: bold;
+}
+footer a{
+	color: #fff;
+}
+
+footer a:hover{
+	color: #edc690;
+}
+footer a hover{
+	color: #7c3c3c;
+}
+/*GALERIA*/
+
+span.over {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	cursor: pointer
+}
+
+span.over {
+	background: rgba(0, 182, 223, 0.46);
+}
+
+#screenshots  {
+	background:#fff;
+	min-height:250px;
+	padding:0;
+	text-align:center
+}
+
+#screenshots ul {
+	padding:0;
+	margin:0;
+	list-style:none
+}
+
+#screenshots ul li {
+	padding:0;
+	margin:0;
+	float:left;
+	position:relative
+}
+
+#screenshots ul li a {
+	width: 100%;
+	height: 100%;
+	float:left;
+	display:block
+}
+
+.zoom-icon {
+	width: 128px!important;
+	height: 128px!important;
+	position: absolute;
+	top:30%;
+	left:34%;
+	border:0!important;
+	box-shadow:none!important;
+	-moz-box-shadow:none!important;
+	-webkit-box-shadow:none!important;
+	-ms-box-shadow:none!important;
+	-o-box-shadow:none!important;
+	border:0!important
+}
+
+@media screen and (min-width: 768px) {
+
+.brand {
+	display: inherit;
+	font-weight: 700;
+	font-size: 5em;
+	line-height: normal;
+	text-align: center;
+	margin: 0;
+	padding: 30px 0 10px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.top-divider {
+	margin-top: 0;
+}
+
+.img-left {
+	float: left;
+	margin-right: 25px;
+}
+
+.address-bar {
+	display: inherit;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 40px;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+	border-radius: 0;
+	min-height: 0;
+}
+
+.navbar-header {
+	display: none;
+}
+
+
+.navbar-default {
+	background: #ddbb67;
+	color: #fff;
+	border: none;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0px;
+}
+
+.nav>li>a {
+	padding: 15px 	150px 15px 30px;
+}
+
+.navbar-nav>li>a {
+	line-height: normal;
+}
+
+.navbar-nav {
+	float: none;
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+	font-size: 1em;
+
+}
+.navbar-default .navbar-nav > li > a {
+	color:  white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #f7ebcd;
+	background-color: transparent;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.box:after {
+			content: '';
+			display: table;
+			clear: both;
+	}
+}
+
+/* logos de face y twitter */
+#logoface, #logotwitter {
+  width: 40px;
+  height: 40px;
+}

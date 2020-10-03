@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Title" content="MODELO 3 PÁGINA WEB">
+		<meta name="Author" content="OSCAR">
+		<meta name="Description" content="Descipción de la página">
+		<meta name="Keywords" content="palabras, claves">
+		<meta name="Distribution" content="Global">
+		<meta name="Robots" content="Index, follow">
+
+		<title>MODELO 3 DE PÁGINA WEB</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="estilos-css/bootstrap.css" rel="stylesheet">
+
+		<!-- Add custom CSS here -->
+		<link href="estilos-css/estilos.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+
+    <!-- Encabezado superior -->
+   		<div class="container">
+        <div class="container">
+         <div class="blanco">
+          <div class="col-lg-1">
+   	     </div>
+          <!-- Imagen 1 cabecera -->
+          <div class="col-lg-2">
+           <br>
+           <img class="img-responsive img-center-2" src="imagenes/img1.png">
+           <br>
+          </div>
+          <!-- Imagen 2 cabecera -->
+          <div class="col-lg-2">
+           <br>
+           <img class="img-responsive img-center-2" src="imagenes/logo.png">
+           <br>
+          </div>
+          <!-- Imagen 3 cabecera -->
+          <div class="col-lg-7">
+           <br>
+           <img class="img-responsive img-center-2" src="imagenes/datos-empresa.png">
+           <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--MENU PRINCIPAL-->
+
+ <!-- Navegación -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">NOMBRE EMPRESA</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">NOMBRE EMPRESA</a>
+                </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pagina-2.html">Página 2</a></li>
+                    <li><a href="pagina-3.html">Contacto</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!--FIN MENU-->
+
+    <!-- Contenedor del contacto -->
+		  <div class="container">
+				<div class="caja-texto">
+					 <div class="row">
+						<div class="col-lg-12">
+						  <div class="titulo">
+								<div class="row">
+								<div class="col-lg-8 col-lg-offset-2 ">
+								CONTÁCTANOS
+							 </div>
+							 </div>
+						  </div>
+						</div>
+					 </div>
+
+    <!-- Sección para poner los datos y el mensaje -->
+				<div class="row">
+				 <div class="col-lg-12">
+					 <!--
+						<form role="form" id="forma" action="enviar.php" method="POST"> -->
+						<form action="mailto:oscgtzvar@gmail.com" method="post" enctype="text/plain">
+							<div class="row">
+									<div class="col-lg-4 ">
+										<label for="nombre">Nombre</label>
+										<input class="form-control name=" name="nombre" type="text" required="required" id="nombre" placeholder="Nombre" tabindex="1" title="Nombre">
+									</div>
+									<div class="col-lg-4 ">
+										<label for="email">Email</label>
+										<input class="form-control name=" name="email" type="email" required="required" id="email" placeholder="e-mail" tabindex="2" title="Email">
+									</div>
+									<div class="col-lg-4 ">
+										<label for="telefono">Teléfono</label>
+										<input class="form-control name=" name="telefono" type="text" id="telefono" placeholder="Teléfono" tabindex="3" title="Telefono">
+									</div>
+									<div class="col-lg-12 ">
+										<label for="Mensaje">Mensaje</label>
+										<textarea class="form-control name=" name="comentario" rows="6" id="mensaje" placeholder="Mensaje" tabindex="6"></textarea>
+									</div>
+									<div class="col-lg-12 ">
+										<br>
+										<input class="btn btn-default" type="submit" name="enviar" tabindex="7" value="Enviar"><input type="reset" tabindex="8" class="btn btn-default" value="Borrar">
+										<input type="hidden" name="estado" value="1">
+									</div>
+						   </div>
+             </form>
+					 </div>
+			   </div>
+			</div>
+
+
+  <!-- Sección del mapa google maps -->
+   <!--
+			<div class="row">
+				 <div class="col-lg-12">
+				 	<div class="mapWrapper">
+						<iframe src="embed.html" style="border:0" allowfullscreen="" width="600" height="450" frameborder="0"></iframe>
+					</div>
+					<br>
+				 </div>
+			</div>
+   -->
+	 </div>
+
+	 <!-- Contenedor inferior -->
+     <footer>
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-4">
+          <h3>Domicilio</h3>
+           <p>
+   				XXXXX XXXXXXX XXXXXXX XXXXX<br>
+           Col. XXXXXXX, Benito Juárez<br>
+           XXXXXX  XXXXXXXX XXXXXXXXXX<br>
+           </p>
+         </div>
+
+         <div class="col-lg-4">
+           <h3>Medios de contacto</h3>
+           <p>
+           Teléfono: <br>
+           1111 1111 <br>
+           Correo electrónico:<br>
+           nombre_empresa@gmail.com<br>
+           </p>
+           <h3>Siguenos en redes sociales:</h3>
+           <a href="https://www.facebook.com/Oscar.Gtz.V/" target="_blank">
+   				<img id="logoface" src="imagenes/Facebook_Logo.png"></a>
+   				<a href="https://twitter.com/OscarGtzVa" target="_blank">
+   				<img id="logotwitter" src="imagenes/twitter-logo.png"> </a>
+           <br>
+
+           </div>
+             <div class="col-lg-4">
+   						<h3>Copyright</h3>
+               <p>
+               Todos los logotipos, nombres, fotografias y marcas
+               mencionados en nuestro sitio son propiedad de La Empresa en Mención.
+               <!--Sitio web diseñado y desarrollado por <a href="#">Oscar</a> -->
+   						</p>
+
+       <!-- Elemento que lleva el conteo en la estadística -->
+       <!--  <p><a href="http://www.ademails.com/estadisticas1060028592.htm">
+         <script type="text/javascript" language="JavaScript">
+         //<!
+         document.write("<img src=\"http://www.ademails.com/cgi-bin/contador.cgi?ID=1060028592");
+         document.write("&referer=");
+         document.write(escape(document.referrer));
+         document.write("\" border=0 alt=\"Estadisticas\">");
+
+         </script><img src="escuela-natacion_files/contador" alt="Estadisticas" border="0"><noscript><img src=http://www.ademails.com/cgi-bin/contador.cgi?ID=1060028592 border=0 alt="Estadisticas"></noscript></a>
+   			</p>-->
+       </div>
+    </div>
+   </div>
+   </footer>
+
+
+<script type="text/javascript" language="JavaScript">
+<!--
+document.write("<img src=\"http://www.ademails.com/cgi-bin/contador.cgi?ID=1060028592");
+document.write("&referer=");
+document.write(escape(document.referrer));
+document.write("\" border=0 alt=\"Estadisticas\">");
+// -->
+</script><img src="CORAL%20ESCUELA%20DE%20NATACION_files/contador" alt="Estadisticas" border="0"><noscript><img src=http://www.ademails.com/cgi-bin/contador.cgi?ID=1060028592 border=0 alt="Estadisticas"></noscript></a>
+
+
+
+
+						 </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+			<!-- JavaScript -->
+			<script src="CORAL%20ESCUELA%20DE%20NATACION_files/jquery-1.js"></script>
+			<script src="CORAL%20ESCUELA%20DE%20NATACION_files/bootstrap.js"></script>
+			<script>
+				// Activates the Carousel
+				$('.carousel').carousel({
+					interval: 5000
+				})
+			</script>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'p3plcpnl0843'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src="CORAL%20ESCUELA%20DE%20NATACION_files/tcc_l.js"></script>
+</body></html>
